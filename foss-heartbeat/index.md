@@ -4,5 +4,5 @@
 * Mozilla [OpenDesign](./OpenDesign/sentiment.html)
 
 # Credits
-* [Original FOSS Heartbeat]v(https://github.com/sagesharp/foss-heartbeat/) repo
+* [Original FOSS Heartbeat](https://github.com/sagesharp/foss-heartbeat/) repo
 * Fiji's [March 2018 update of FOSS Hearbeat](https://github.com/fiji-flo/foss-heartbeat/)
