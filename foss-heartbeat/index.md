@@ -2,6 +2,8 @@
 * [Mozillians.org](./mozillians/sentiment.html)
 * Mozilla's [ParSys](./parsys/sentiment.html) team repo
 * Mozilla [OpenDesign](./OpenDesign/sentiment.html)
+* Mozilla [Reps](./reps/sentiment.html), the Mozilla Reps program
+* Mozilla [Remo](./remo/sentiment.html), the Reps Portal (code)
 
 # Credits
 * [Original FOSS Heartbeat](https://github.com/sagesharp/foss-heartbeat/) repo
