@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>FOSS Heartbeat for mozilla-l10n/appstores | Sentiment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/justified-nav.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">FOSS Heartbeat for mozilla-l10n/appstores</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="nav-item"><a class="nav-link" href="foss-heartbeat.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="newcomers.html">Newcomers</a></li>
+            <li class="nav-item"><a class="nav-link" href="contributors.html">Contributors</a></li>
+            <li class="nav-item"><a class="nav-link active" href="sentiment.html">Sentiment</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Communication norms for mozilla-l10n/appstores</h1>
+        <p class="lead">FOSS Heartbeat analyses the health of a community of contributors.</p>
+        <p><a class="btn btn-lg btn-success" href="https://github.com/sarahsharp/foss-heartbeat" role="button">Learn more</a></p>
+      </div>
+      <script src="../../js/plotly-1.19.2.min.js"></script>
+      <p><b>**WARNING** The sentiment model is not very good at classifying sentences yet. Take these graphs with a giant lump of salt.</b></p>
+      <div id="ffc8f44d-11a7-4cd5-a147-c2f043d3ca0d" style="height: 100%; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("ffc8f44d-11a7-4cd5-a147-c2f043d3ca0d", [{"type": "scatter", "x": ["2015-08-23 13:03:00", "2015-08-26 17:08:32", "2015-09-21 13:42:04", "2015-10-20 21:14:15", "2015-10-24 12:17:49", "2015-10-24 15:31:08", "2016-03-16 22:57:20", "2016-03-16 23:00:26", "2016-07-27 16:54:41", "2016-11-11 05:23:45", "2017-03-01 23:37:15", "2017-04-06 03:02:06", "2017-06-21 14:28:58", "2017-07-27 22:26:37", "2017-09-13 14:21:06", "2018-03-13 13:57:15"], "y": [2, 1, 1, 4, 3, 5, 7, 2, 2, 1, 2, 1, 2, 3, 2, 2], "error_y": {"type": "data", "symmetric": false, "array": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "arrayminus": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "color": "rgba(0, 0, 0, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/appstores/pull/2", "https://github.com/mozilla-l10n/appstores/pull/4", "https://github.com/mozilla-l10n/appstores/pull/9", "https://github.com/mozilla-l10n/appstores/pull/27", "https://github.com/mozilla-l10n/appstores/pull/30", "https://github.com/mozilla-l10n/appstores/pull/31", "https://github.com/mozilla-l10n/appstores/pull/52", "https://github.com/mozilla-l10n/appstores/pull/53", "https://github.com/mozilla-l10n/appstores/pull/75", "https://github.com/mozilla-l10n/appstores/pull/77", "https://github.com/mozilla-l10n/appstores/pull/82", "https://github.com/mozilla-l10n/appstores/pull/87", "https://github.com/mozilla-l10n/appstores/pull/94", "https://github.com/mozilla-l10n/appstores/pull/97", "https://github.com/mozilla-l10n/appstores/pull/100", "https://github.com/mozilla-l10n/appstores/pull/107"], "name": "Neutral community sentiment", "marker": {"color": "rgba(0, 0, 0, .8)"}}, {"type": "scatter", "x": ["2015-08-26 16:48:28", "2015-08-29 17:38:56", "2015-09-21 13:40:45", "2015-10-04 15:01:05", "2015-10-09 15:39:21", "2016-02-26 15:00:47", "2016-02-26 16:25:58", "2016-03-03 13:15:46", "2016-03-09 15:35:55", "2016-03-16 22:54:55", "2016-04-23 08:29:52", "2016-05-08 11:14:45", "2016-06-03 11:59:44", "2016-12-21 03:27:03", "2017-04-14 22:18:09", "2017-05-22 05:00:55", "2017-07-27 23:21:25", "2017-11-09 02:21:10", "2018-01-18 01:01:53"], "y": [5, 0, 4, 5, 10, 1, 6, 2, 2, 1, 2, 2, 2, 4, 6, 4, 3, 5, 0], "error_y": {"type": "data", "symmetric": false, "array": [4, 1, 1, 4, 3, 1, 2, 2, 2, 1, 1, 1, 2, 1, 3, 1, 3, 3, 1], "arrayminus": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0], "color": "rgba(21, 209, 219, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/appstores/pull/3", "https://github.com/mozilla-l10n/appstores/pull/6", "https://github.com/mozilla-l10n/appstores/pull/8", "https://github.com/mozilla-l10n/appstores/pull/20", "https://github.com/mozilla-l10n/appstores/pull/21", "https://github.com/mozilla-l10n/appstores/pull/40", "https://github.com/mozilla-l10n/appstores/pull/41", "https://github.com/mozilla-l10n/appstores/pull/44", "https://github.com/mozilla-l10n/appstores/pull/47", "https://github.com/mozilla-l10n/appstores/pull/51", "https://github.com/mozilla-l10n/appstores/pull/61", "https://github.com/mozilla-l10n/appstores/pull/68", "https://github.com/mozilla-l10n/appstores/pull/71", "https://github.com/mozilla-l10n/appstores/pull/78", "https://github.com/mozilla-l10n/appstores/pull/89", "https://github.com/mozilla-l10n/appstores/pull/90", "https://github.com/mozilla-l10n/appstores/pull/98", "https://github.com/mozilla-l10n/appstores/pull/104", "https://github.com/mozilla-l10n/appstores/pull/105"], "name": "Positive community sentiment", "marker": {"color": "rgba(21, 209, 219, .8)"}}, {"type": "scatter", "x": ["2015-09-21 13:00:09", "2015-09-21 14:00:12", "2015-09-22 09:23:28", "2015-10-20 16:26:55", "2015-10-22 17:01:32", "2015-10-23 11:01:32", "2015-10-28 10:15:18", "2016-03-11 23:50:14", "2016-04-24 07:50:15", "2016-05-08 10:16:08", "2016-05-14 03:33:12", "2017-03-06 17:14:34", "2017-04-06 13:22:10", "2017-06-13 12:05:17", "2017-07-18 19:30:10", "2015-07-27 07:04:37"], "y": [8, 7, 5, 6, 4, 0, 3, 4, 0, 9, 6, 2, 4, 14, 4, 2], "error_y": {"type": "data", "symmetric": false, "array": [3, 4, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0], "arrayminus": [7, 9, 2, 3, 4, 2, 3, 1, 1, 3, 8, 24, 2, 8, 1, 2], "color": "rgba(250, 120, 80, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/appstores/issues/7", "https://github.com/mozilla-l10n/appstores/pull/12", "https://github.com/mozilla-l10n/appstores/pull/17", "https://github.com/mozilla-l10n/appstores/pull/26", "https://github.com/mozilla-l10n/appstores/issues/28", "https://github.com/mozilla-l10n/appstores/pull/29", "https://github.com/mozilla-l10n/appstores/pull/34", "https://github.com/mozilla-l10n/appstores/pull/49", "https://github.com/mozilla-l10n/appstores/pull/62", "https://github.com/mozilla-l10n/appstores/issues/67", "https://github.com/mozilla-l10n/appstores/issues/69", "https://github.com/mozilla-l10n/appstores/pull/83", "https://github.com/mozilla-l10n/appstores/pull/88", "https://github.com/mozilla-l10n/appstores/pull/93", "https://github.com/mozilla-l10n/appstores/pull/96", "https://github.com/mozilla-l10n/appstores/pull/1"], "name": "Negative community sentiment", "marker": {"color": "rgba(250, 120, 80, .8)"}}, {"type": "scatter", "x": ["2015-09-21 13:48:50", "2015-10-20 03:42:43", "2016-02-26 14:30:46", "2016-04-12 12:35:51", "2016-04-22 17:38:06", "2016-04-28 10:51:14"], "y": [7, 3, 4, 2, 8, 4], "error_y": {"type": "data", "symmetric": false, "array": [3, 4, 2, 2, 5, 2], "arrayminus": [4, 2, 1, 1, 3, 1], "color": "rgba(130, 20, 160, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/appstores/pull/10", "https://github.com/mozilla-l10n/appstores/pull/24", "https://github.com/mozilla-l10n/appstores/pull/39", "https://github.com/mozilla-l10n/appstores/pull/57", "https://github.com/mozilla-l10n/appstores/issues/60", "https://github.com/mozilla-l10n/appstores/pull/65"], "name": "Mixed community sentiment", "marker": {"color": "rgba(130, 20, 160, .8)"}}], {"title": "Community sentiment", "yaxis": {"title": "Number of + positive | neutral | - negative comments"}, "xaxis": {"title": "Issue or PR creation date"}}, {"showLink": false, "linkText": "Export to plot.ly"})</script>
+      <p>On average, an issue or pull request in mozilla-l10n/appstores contains:
+<ul>
+<li>0.19 very positive sentences</li>
+<li>0.75 positive sentences</li>
+<li>3.68 neutral sentences</li>
+<li>1.46 negative sentences</li>
+<li>0.11 very negative sentences</li>
+</ul></p>
+<p>Chances of encountering a particular sentiment while filing an issue or pull request:
+<ul>
+<li>Very positive: 17.54%</li>
+<li>Positive: 42.11%</li>
+<li>Neutral: 92.98%</li>
+<li>Negative: 43.86%</li>
+<li>Very negative: 7.02%</li>
+</ul></p>
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2016 Sarah Sharp &lt;sharp@otter.technology&gt;</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

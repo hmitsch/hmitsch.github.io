@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>FOSS Heartbeat for mozilla-l10n/zerda-android-l10n | Sentiment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/justified-nav.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">FOSS Heartbeat for mozilla-l10n/zerda-android-l10n</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="nav-item"><a class="nav-link" href="foss-heartbeat.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="newcomers.html">Newcomers</a></li>
+            <li class="nav-item"><a class="nav-link" href="contributors.html">Contributors</a></li>
+            <li class="nav-item"><a class="nav-link active" href="sentiment.html">Sentiment</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Communication norms for mozilla-l10n/zerda-android-l10n</h1>
+        <p class="lead">FOSS Heartbeat analyses the health of a community of contributors.</p>
+        <p><a class="btn btn-lg btn-success" href="https://github.com/sarahsharp/foss-heartbeat" role="button">Learn more</a></p>
+      </div>
+      <script src="../../js/plotly-1.19.2.min.js"></script>
+      <p><b>**WARNING** The sentiment model is not very good at classifying sentences yet. Take these graphs with a giant lump of salt.</b></p>
+      <div id="2ce9945c-ea9f-4b5e-b697-569c1eff75c7" style="height: 100%; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("2ce9945c-ea9f-4b5e-b697-569c1eff75c7", [{"type": "scatter", "x": ["2017-09-22 04:02:22"], "y": [1], "error_y": {"type": "data", "symmetric": false, "array": [0], "arrayminus": [0], "color": "rgba(0, 0, 0, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/zerda-android-l10n/pull/2"], "name": "Neutral community sentiment", "marker": {"color": "rgba(0, 0, 0, .8)"}}, {"type": "scatter", "x": ["2017-10-18 02:52:48", "2018-03-20 09:57:08", "2018-03-23 14:07:15"], "y": [11, 8, 13], "error_y": {"type": "data", "symmetric": false, "array": [11, 4, 7], "arrayminus": [3, 1, 2], "color": "rgba(21, 209, 219, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/zerda-android-l10n/pull/5", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/13", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/15"], "name": "Positive community sentiment", "marker": {"color": "rgba(21, 209, 219, .8)"}}, {"type": "scatter", "x": ["2017-09-25 07:35:38", "2017-11-06 06:43:30", "2018-01-10 07:39:55", "2018-01-15 08:40:29", "2018-02-06 09:26:46", "2018-03-23 06:28:50"], "y": [3, 2, 5, 8, 0, 4], "error_y": {"type": "data", "symmetric": false, "array": [0, 0, 2, 0, 0, 0], "arrayminus": [1, 3, 8, 2, 2, 1], "color": "rgba(250, 120, 80, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/zerda-android-l10n/pull/3", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/7", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/8", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/10", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/11", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/14"], "name": "Negative community sentiment", "marker": {"color": "rgba(250, 120, 80, .8)"}}, {"type": "scatter", "x": ["2018-01-11 06:14:08", "2018-03-13 05:27:29"], "y": [11, 8], "error_y": {"type": "data", "symmetric": false, "array": [4, 5], "arrayminus": [2, 3], "color": "rgba(130, 20, 160, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/zerda-android-l10n/pull/9", "https://github.com/mozilla-l10n/zerda-android-l10n/pull/12"], "name": "Mixed community sentiment", "marker": {"color": "rgba(130, 20, 160, .8)"}}], {"title": "Community sentiment", "yaxis": {"title": "Number of + positive | neutral | - negative comments"}, "xaxis": {"title": "Issue or PR creation date"}}, {"showLink": false, "linkText": "Export to plot.ly"})</script>
+      <p>On average, an issue or pull request in mozilla-l10n/zerda-android-l10n contains:
+<ul>
+<li>0.58 very positive sentences</li>
+<li>1.58 positive sentences</li>
+<li>6.17 neutral sentences</li>
+<li>2.33 negative sentences</li>
+<li>0.00 very negative sentences</li>
+</ul></p>
+<p>Chances of encountering a particular sentiment while filing an issue or pull request:
+<ul>
+<li>Very positive: 50.00%</li>
+<li>Positive: 41.67%</li>
+<li>Neutral: 91.67%</li>
+<li>Negative: 91.67%</li>
+<li>Very negative: 0.00%</li>
+</ul></p>
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2016 Sarah Sharp &lt;sharp@otter.technology&gt;</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

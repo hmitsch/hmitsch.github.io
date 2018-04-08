@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>FOSS Heartbeat for mozilla-l10n/firefoxios-l10n | Sentiment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/justified-nav.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">FOSS Heartbeat for mozilla-l10n/firefoxios-l10n</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="nav-item"><a class="nav-link" href="foss-heartbeat.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="newcomers.html">Newcomers</a></li>
+            <li class="nav-item"><a class="nav-link" href="contributors.html">Contributors</a></li>
+            <li class="nav-item"><a class="nav-link active" href="sentiment.html">Sentiment</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Communication norms for mozilla-l10n/firefoxios-l10n</h1>
+        <p class="lead">FOSS Heartbeat analyses the health of a community of contributors.</p>
+        <p><a class="btn btn-lg btn-success" href="https://github.com/sarahsharp/foss-heartbeat" role="button">Learn more</a></p>
+      </div>
+      <script src="../../js/plotly-1.19.2.min.js"></script>
+      <p><b>**WARNING** The sentiment model is not very good at classifying sentences yet. Take these graphs with a giant lump of salt.</b></p>
+      <div id="09e7e2cc-ab4d-4471-8cb2-cc863094eadc" style="height: 100%; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("09e7e2cc-ab4d-4471-8cb2-cc863094eadc", [{"type": "scatter", "x": ["2015-12-31 14:46:12", "2016-11-01 20:11:49", "2017-02-22 19:19:21", "2017-02-24 19:28:54", "2017-08-22 17:11:38", "2017-08-25 11:13:12", "2017-10-05 19:09:16", "2017-10-12 12:08:52", "2017-10-12 17:58:54", "2018-02-16 19:49:23"], "y": [1, 2, 4, 4, 2, 20, 7, 2, 2, 17], "error_y": {"type": "data", "symmetric": false, "array": [0, 0, 0, 0, 0, 1, 0, 0, 0, 1], "arrayminus": [0, 0, 0, 0, 0, 2, 0, 0, 0, 2], "color": "rgba(0, 0, 0, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/firefoxios-l10n/pull/2", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/19", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/21", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/23", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/36", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/37", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/38", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/41", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/46", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/48"], "name": "Neutral community sentiment", "marker": {"color": "rgba(0, 0, 0, .8)"}}, {"type": "scatter", "x": ["2015-12-31 14:51:42", "2017-10-12 15:33:16", "2018-02-21 15:57:35"], "y": [0, 4, 4], "error_y": {"type": "data", "symmetric": false, "array": [1, 2, 3], "arrayminus": [0, 0, 0], "color": "rgba(21, 209, 219, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/firefoxios-l10n/pull/3", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/45", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/51"], "name": "Positive community sentiment", "marker": {"color": "rgba(21, 209, 219, .8)"}}, {"type": "scatter", "x": ["2015-12-30 17:27:28", "2016-02-29 15:43:28", "2016-04-08 12:01:53", "2016-04-08 13:14:36", "2016-04-08 15:32:12", "2016-04-12 15:16:25", "2016-04-12 18:37:19", "2016-05-31 22:22:58", "2017-04-24 15:10:44", "2017-04-25 00:59:35", "2017-06-17 14:02:17", "2017-06-22 19:11:49", "2017-08-16 13:10:32", "2017-08-17 13:40:57", "2017-10-05 19:57:33", "2017-10-12 11:53:50"], "y": [11, 0, 0, 0, 0, 0, 0, 0, 13, 4, 1, 2, 2, 2, 20, 4], "error_y": {"type": "data", "symmetric": false, "array": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "arrayminus": [4, 2, 2, 2, 2, 2, 2, 2, 1, 3, 2, 4, 4, 1, 4, 4], "color": "rgba(250, 120, 80, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/firefoxios-l10n/pull/1", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/6", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/8", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/9", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/10", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/11", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/12", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/13", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/25", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/26", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/27", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/28", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/29", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/32", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/39", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/40"], "name": "Negative community sentiment", "marker": {"color": "rgba(250, 120, 80, .8)"}}, {"type": "scatter", "x": ["2016-01-25 19:21:06", "2016-06-10 07:20:43", "2016-07-11 11:57:50", "2017-08-17 13:56:58", "2017-08-21 18:38:31", "2017-10-12 12:28:41"], "y": [13, 2, 4, 21, 9, 11], "error_y": {"type": "data", "symmetric": false, "array": [1, 2, 1, 3, 1, 6], "arrayminus": [2, 1, 1, 3, 2, 5], "color": "rgba(130, 20, 160, .8)"}, "mode": "markers", "text": ["https://github.com/mozilla-l10n/firefoxios-l10n/pull/5", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/16", "https://github.com/mozilla-l10n/firefoxios-l10n/issues/18", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/33", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/35", "https://github.com/mozilla-l10n/firefoxios-l10n/pull/43"], "name": "Mixed community sentiment", "marker": {"color": "rgba(130, 20, 160, .8)"}}], {"title": "Community sentiment", "yaxis": {"title": "Number of + positive | neutral | - negative comments"}, "xaxis": {"title": "Issue or PR creation date"}}, {"showLink": false, "linkText": "Export to plot.ly"})</script>
+      <p>On average, an issue or pull request in mozilla-l10n/firefoxios-l10n contains:
+<ul>
+<li>0.06 very positive sentences</li>
+<li>0.51 positive sentences</li>
+<li>5.37 neutral sentences</li>
+<li>1.69 negative sentences</li>
+<li>0.00 very negative sentences</li>
+</ul></p>
+<p>Chances of encountering a particular sentiment while filing an issue or pull request:
+<ul>
+<li>Very positive: 5.71%</li>
+<li>Positive: 28.57%</li>
+<li>Neutral: 77.14%</li>
+<li>Negative: 68.57%</li>
+<li>Very negative: 0.00%</li>
+</ul></p>
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2016 Sarah Sharp &lt;sharp@otter.technology&gt;</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
